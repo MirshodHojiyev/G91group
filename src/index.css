@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+
+
+.div{
+  display: block;
+}
+.div1{
+    display: none;
+}

@@ -1,0 +1,17 @@
+{
+  "users":[
+   {
+    "id":852252,
+    "name":"Qosim"
+   },
+    {
+    "id":852252,
+    "name":"Qosim2"
+   },
+    {
+    "id":852252,
+    "name":"Qosim4"
+   }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
