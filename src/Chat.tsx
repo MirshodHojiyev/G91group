@@ -36,7 +36,6 @@ useEffect(()=>{
     const unsubscribe = onValue(messagesRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
-        // JSON objectni arrayga aylantirish
         const list = Object.keys(data).map(key => ({
           id: key,
           ...data[key]
@@ -84,7 +83,7 @@ const handleSaveMessage = () => {
         <div className="p-4 h-100 overflow-y-auto">
           {messages.map((message) => (
             <div key={message.id} className={`${message.userId===user?.uid ? "text-right " : "text-left"} mb-4`}>
-                <p className={`${message.userId===user?.uid ? "bg-blue-500" : "bg-gray-300"} text-white rounded-lg py-2 px-4 inline-block`}>
+                <p className={`${message.userId===user?.uid ? "bg-blue-500" : "bg-gray-200"} text-white rounded-lg py-2 px-4 inline-block`}>
                   {message.message}
                 </p>
             </div>
