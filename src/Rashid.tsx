@@ -189,6 +189,34 @@ const Rashid = () => {
                     </a>
                 </section>
             </main>
+
+            <footer style={{ backgroundColor: "white", padding: "2.5rem 1rem 3rem", borderTop: "1px solid #e5e7eb" }}>
+                <div style={{ maxWidth: "1280px", margin: "0 auto", display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: "2rem" }}>
+                    <div>
+                        <p style={{ margin: 0, fontWeight: 700, fontSize: "1rem" }}>About JobPortal</p>
+                        <p style={{ margin: "1rem 0 0", color: "#6b7280", lineHeight: "1.8" }}>
+                            JobPortal connects professionals with verified employers across industries. Find the right job fast and stay ahead with real-time alerts.
+                        </p>
+                    </div>
+                    <div>
+                        <p style={{ margin: 0, fontWeight: 700, fontSize: "1rem" }}>Quick Links</p>
+                        <nav style={{ marginTop: "1rem", display: "grid", gap: "0.75rem" }}>
+                            <a href="/" style={{ color: "#2563eb", textDecoration: "none" }}>Home</a>
+                            <a href="/jobs" style={{ color: "#2563eb", textDecoration: "none" }}>Browse Jobs</a>
+                            <a href="/admin/login" style={{ color: "#2563eb", textDecoration: "none" }}>Post a Job</a>
+                        </nav>
+                    </div>
+                    <div>
+                        <p style={{ margin: 0, fontWeight: 700, fontSize: "1rem" }}>Contact</p>
+                        <p style={{ margin: "1rem 0 0", color: "#6b7280", lineHeight: "1.8" }}>
+                            support@jobportal.com
+                        </p>
+                    </div>
+                </div>
+                <div style={{ maxWidth: "1280px", margin: "2.5rem auto 0", borderTop: "1px solid #e5e7eb", paddingTop: "1.5rem", color: "#6b7280", fontSize: "0.95rem" }}>
+                    © 2024 JobPortal. All rights reserved.
+                </div>
+            </footer>
         </div>
     );
 };
